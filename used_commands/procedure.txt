@@ -1,0 +1,29 @@
+1.  Create a repository on github 'portfolio'
+
+2.  Pull the repository
+    $ git clone https://github.com/muthu-kumaravel/portfolio.git
+    $ cd .\portfolio\
+
+3.  Create a new angular application with SCSS as style
+    $ ng new portfolio-ang
+
+4.  Cut the content in the new angular app 'portfolio-ang' and paste it inside the 'portfolio'
+
+5.  Add, commit those changes and push
+
+6.  Install Angular cli ghpages
+    $ ng add angular-cli-ghpages
+
+7.  Test the application on your end
+    $ ng serve --o
+
+8.  Deploy the application
+    $ ng deploy --base-href=portfolio
+
+9.  Open GitHub settings of this project 
+    -> Go to settings
+    -> Find the GitHub Pages URL and start using it
+    -> URL : https://muthu-kumaravel.github.io/portfolio/
+
+10. Install Angular Materials
+    $ ng add @angular/material
